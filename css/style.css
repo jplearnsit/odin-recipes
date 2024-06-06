@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid #ff0000;
+}
+
+.title-div{
+}
+
+.title{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    margin: 24px 0px 0px 0px;
+}
+
