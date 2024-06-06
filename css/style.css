@@ -1,9 +1,15 @@
 * {
     box-sizing: border-box;
-    border: 1px solid #ff0000;
+    /* border: 1px solid #ff0000; */
 }
 
-.title-div{
+ul, ol{
+    /* This resets the browsers default and removes the space 
+    reserved for bullets as well as the bullets themselves as
+    'list-style: none; simply hides the bullets but does not 
+    remove the space */
+    margin: 0px;
+    padding: 0px;
 }
 
 .title{
@@ -12,3 +18,30 @@
     margin: 24px 0px 0px 0px;
 }
 
+.recipe-list{
+    text-align: center;
+    font-family: Arial, san-serif;
+    list-style: none;
+    width: 70%;
+    margin: 20px auto 0px;
+}
+
+.recipe-list li{
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    font-family: Arial, san-serif;
+    margin: 10px auto;
+    padding: 25px;
+}
+
+.recipe-list a{
+    color: white;
+    text-decoration: none;
+}
+
+.recipe-list li:hover{
+    background-color: red;
+}
